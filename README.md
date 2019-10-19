@@ -60,4 +60,4 @@ sudo cp tox-bootstrapd.conf /etc/tox-bootstrapd.conf
 cd /usr/local/bin/ && nohup ./DHT_bootstrap --config /etc/tox-bootstrapd.conf &
 ```
 
-###完成！记录引导节点信息：IP、Port、Public Key
+### 完成！记录引导节点信息：IP、Port、Public Key
