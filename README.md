@@ -1,3 +1,8 @@
+# 如何运行自己的引导节点
+
+### 在服务器控制台按照以下步骤执行即可运行自己的引导节点
+
+
 * 创建data目录并进入data目录
 ```sh
 mkdir /data && cd /data/
@@ -54,3 +59,5 @@ sudo cp tox-bootstrapd.conf /etc/tox-bootstrapd.conf
 ```sh
 cd /usr/local/bin/ && nohup ./DHT_bootstrap --config /etc/tox-bootstrapd.conf &
 ```
+
+###完成！记录引导节点信息：IP、Port、Public Key
